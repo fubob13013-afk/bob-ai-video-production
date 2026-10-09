@@ -1,0 +1,8 @@
+.env
+.env.*
+*.key
+*apikey*
+__pycache__/
+*.pyc
+项目素材/
+API记录/

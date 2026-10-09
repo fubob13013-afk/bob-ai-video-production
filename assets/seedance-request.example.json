@@ -1,0 +1,28 @@
+{
+  "model": "请填写当前已开通并核实的Seedance模型ID",
+  "content": [
+    {
+      "type": "text",
+      "text": "16:9横屏，精致3D动画风格，柔和自然光，低饱和配色。图片1只参考角色身份，图片2只参考书房布局。主角在书桌旁合上笔记本，抬头微笑，嘴闭合不说话。固定中景，单一连续镜头。只有与动作相符的轻微场景声，无音乐。角色服装和场景布局稳定，无额外人物，无字幕或品牌。"
+    },
+    {
+      "type": "image_url",
+      "image_url": {
+        "url": "https://example.com/authorized-character.jpg"
+      },
+      "role": "reference_image"
+    },
+    {
+      "type": "image_url",
+      "image_url": {
+        "url": "https://example.com/authorized-room.jpg"
+      },
+      "role": "reference_image"
+    }
+  ],
+  "generate_audio": true,
+  "resolution": "720p",
+  "ratio": "16:9",
+  "duration": 6,
+  "watermark": false
+}
